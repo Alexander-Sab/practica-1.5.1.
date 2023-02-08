@@ -114,7 +114,7 @@ buttonOpen.addEventListener("click", function () {
     buttonOpen.appendChild(pressbuttonText);
   } else {
     replica.style.display = "none";
-    pressbuttonJackdawOpen.src = "../icons/open.svg";
+    pressbuttonJackdawOpen.src = "./icons/open.svg";
     buttonOpen.appendChild(pressbuttonJackdawOpen);
     pressbuttonTexOpen.textContent = "Показать все";
     buttonOpen.appendChild(pressbuttonTexOpen);
