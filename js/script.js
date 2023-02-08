@@ -49,7 +49,7 @@ contenerLenovo.classList.add("contener-slide__brend-logo");
 
 let pictureLenovo = document.createElement("img");
 pictureLenovo.classList.add("contener-slide__brend-logo--emblem");
-pictureLenovo.src = "../img/lenovo.svg";
+pictureLenovo.src = "./img/lenovo.svg";
 
 let buttoneLenovo = document.createElement("div");
 buttoneLenovo.classList.add("buttone-open");
@@ -65,7 +65,7 @@ contenerSamsung.classList.add("contener-slide__brend-logo");
 
 let pictureSamsung = document.createElement("img");
 pictureSamsung.classList.add("contener-slide__brend-logo--emblem");
-pictureSamsung.src = "../img/samsung.svg";
+pictureSamsung.src = "./img/samsung.svg";
 
 let buttoneSamsung = document.createElement("div");
 buttoneSamsung.classList.add("buttone-open");
@@ -81,7 +81,7 @@ contenerApple.classList.add("contener-slide__brend-logo");
 
 let pictureApple = document.createElement("img");
 pictureApple.classList.add("contener-slide__brend-logo--emblem");
-pictureApple.src = "../img/Apple.svg";
+pictureApple.src = "./img/Apple.svg";
 
 let buttoneApple = document.createElement("div");
 buttoneApple.classList.add("buttone-open");
@@ -94,7 +94,7 @@ let buttonOpen = document.querySelector(".pressbutton");
 let pressbuttonJackdawOpen = document.querySelector(
   ".pressbutton-jackdaw__icon"
 );
-pressbuttonJackdawOpen.src = "../icons/open.svg";
+pressbuttonJackdawOpen.src = "./icons/open.svg";
 buttonOpen.appendChild(pressbuttonJackdawOpen);
 let pressbuttonTexOpen = document.querySelector(
   ".pressbutton-jackdaw__icon-text"
@@ -108,7 +108,7 @@ let pressbuttonText = document.querySelector(".pressbutton-jackdaw__icon-text");
 buttonOpen.addEventListener("click", function () {
   if (replica.style.display === "none") {
     replica.style.display = "flex";
-    closebuttonIcon.src = "../icons/hide.svg";
+    closebuttonIcon.src = "./icons/hide.svg";
     buttonOpen.appendChild(closebuttonIcon);
     pressbuttonText.textContent = "Скрыть";
     buttonOpen.appendChild(pressbuttonText);
